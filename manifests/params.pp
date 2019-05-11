@@ -1,4 +1,3 @@
-#This is the first file pulled from GitHub to Jenkins.
 class ssh::params {
   case $facts['os']['family'] {
     'Debian': {
